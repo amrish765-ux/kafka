@@ -27,4 +27,6 @@ public class JsonKafkaProducer {
                 .build();
         kafkaTemplate.send(message);
     }
+
+
 }
